@@ -5,7 +5,7 @@ export VAL=1
 xinput set-prop "pointer:Logitech MX Ergo" "Coordinate Transformation Matrix" $VAL, 0, 0, 0, $VAL, 0, 0, 0, 1
 
 
->> Trackbacl speed <<
+>> Trackball speed <<
 bash:$
 xinput --set-prop "pointer:Logitech MX Ergo" 'Coordinate Transformation Matrix' 1 0 0 0 1 0 0 0 1.3
 
