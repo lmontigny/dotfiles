@@ -6,4 +6,4 @@ xinput set-prop "pointer:Logitech MX Ergo" "Coordinate Transformation Matrix" $V
 
 
 >> Current <<
-xinput --set-prop "pointer:Logitech MX Ergo" 'Coordinate Transformation Matrix' 1 0 0 0 1 0 0 0 .6
+xinput --set-prop "pointer:Logitech MX Ergo" 'Coordinate Transformation Matrix' 1 0 0 0 1 0 0 0 1.3
