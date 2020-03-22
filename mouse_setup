@@ -1,14 +1,11 @@
-# Trackball 
-# 1 is slow, 5 is fast
-
-export VAL=1  
-xinput set-prop "pointer:Logitech MX Ergo" "Coordinate Transformation Matrix" $VAL, 0, 0, 0, $VAL, 0, 0, 0, 1
-
 >> Trackball speed <<
-bash:$
+//xiut set-prop "pointer:Logitech MX Ergo" "Coordinate Transformation Matrix" $VAL, 0, 0, 0, $VAL, 0, 0, 0, 1
 xinput --set-prop "pointer:Logitech MX Ergo" 'Coordinate Transformation Matrix' 1 0 0 0 1 0 0 0 1.3
 
->> Trackball sroll spee <<
+>> Flat acceleration profile <<
+xinput --set-prop 9 'libinput Accel Profile Enabled' 1,0
+
+>> Trackball sroll speed<<
 cat .imwheelrc 
 ".*"
 None,      Up,   Button4, 3
